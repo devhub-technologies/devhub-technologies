@@ -116,44 +116,114 @@
       </div>
     </div>
 
-    <form id="contactForm" class="reveal reveal-delay-2">
-      <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
-      <input type="hidden" name="subject" value="New enquiry from DevHub website">
-      <input type="checkbox" name="botcheck" style="display:none">
+    <form id="contactForm"
+      class="reveal reveal-delay-2"
+      action="https://api.web3forms.com/submit"
+      method="POST">
 
-      <div class="form-group">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required>
-      </div>
-      <div class="form-group">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required>
-      </div>
-      <div class="form-group">
-        <label for="phone">Phone</label>
-        <input type="tel" id="phone" name="phone">
-      </div>
-      <div class="form-group">
-        <label for="service">Service</label>
-        <select id="service" name="service" required>
-          <option value="" disabled selected>Select a service</option>
-          <option value="Website Development">Website Development</option>
-          <option value="App Development">App Development</option>
-          <option value="Software Development">Software Development</option>
-          <option value="Graphic Design">Graphic Design</option>
-          <option value="Digital Marketing">Digital Marketing</option>
-          <option value="SEO Optimization">SEO Optimization</option>
-          <option value="Other">Other / Not Sure</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label for="message">Message</label>
-        <textarea id="message" name="message" required placeholder="Tell us about your project..."></textarea>
-      </div>
+  <!-- Web3Forms Access Key -->
+  <input type="hidden"
+         name="access_key"
+         value="629f60a8-12c8-4c1a-9525-3de4463d7318">
 
-      <button type="submit" class="submit-btn" id="submitBtn">Send Message</button>
-      <p id="formStatus" class="form-status"></p>
-    </form>
+  <!-- Email Subject -->
+  <input type="hidden"
+         name="subject"
+         value="New enquiry from DevHub website">
+
+  <!-- From Name -->
+  <input type="hidden"
+         name="from_name"
+         value="DevHub Technologies Website">
+
+  <!-- Bot Protection -->
+  <input type="checkbox"
+         name="botcheck"
+         style="display:none">
+
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text"
+           id="name"
+           name="name"
+           required>
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email"
+           id="email"
+           name="email"
+           required>
+  </div>
+
+  <div class="form-group">
+    <label for="phone">Phone</label>
+    <input type="tel"
+           id="phone"
+           name="phone">
+  </div>
+
+  <div class="form-group">
+    <label for="service">Service</label>
+
+    <select id="service"
+            name="service"
+            required>
+
+      <option value="" disabled selected>
+        Select a service
+      </option>
+
+      <option value="Website Development">
+        Website Development
+      </option>
+
+      <option value="App Development">
+        App Development
+      </option>
+
+      <option value="Software Development">
+        Software Development
+      </option>
+
+      <option value="Graphic Design">
+        Graphic Design
+      </option>
+
+      <option value="Digital Marketing">
+        Digital Marketing
+      </option>
+
+      <option value="SEO Optimization">
+        SEO Optimization
+      </option>
+
+      <option value="Other">
+        Other / Not Sure
+      </option>
+
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="message">Message</label>
+
+    <textarea id="message"
+              name="message"
+              required
+              placeholder="Tell us about your project..."></textarea>
+  </div>
+
+  <button type="submit"
+          class="submit-btn"
+          id="submitBtn">
+    Send Message
+  </button>
+
+  <p id="formStatus" class="form-status"></p>
+
+</form>
   </div>
 </section>
 
