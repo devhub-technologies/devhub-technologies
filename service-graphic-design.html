@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DevHub Technologies | Websites Development | Apps Development | Software Development | Digital Marketing | Graphic Designs </title>
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" type="image/png" href="assets/favicon.png">
+</head>
+<body>
+<div class="page-progress" id="pageProgress" aria-hidden="true"></div>
+
+<header>
+  <div class="nav-wrap">
+    <a href="index.html" class="brand"><img src="assets/dev logo.png" alt="DevHub Technologies logo" class="brand-logo"></a>
+    <nav>
+      <ul id="navList">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="has-dropdown">
+          <span class="dd-trigger"><a href="services.html" class="active">Services</a><svg class="isvg" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></span>
+          <div class="mega-dropdown">
+            <a class="dd-item" href="service-website-development.html">
+              <span class="dd-icon"><svg class="isvg" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="13" rx="1.5"/><path d="M8 21h8M12 17v4"/><path d="m9 9-2 2 2 2M15 9l2 2-2 2"/></svg></span>
+              <span><h5>Website Development</h5><p>Responsive business websites</p></span>
+            </a>
+            <a class="dd-item" href="service-app-development.html">
+              <span class="dd-icon"><svg class="isvg" viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M10 18h4"/></svg></span>
+              <span><h5>App Development</h5><p>Android &amp; iOS applications</p></span>
+            </a>
+            <a class="dd-item" href="service-software-development.html">
+              <span class="dd-icon"><svg class="isvg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.87l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.7 1.7 0 0 0-1.87-.34 1.7 1.7 0 0 0-1 1.55V21a2 2 0 0 1-4 0v-.09A1.7 1.7 0 0 0 9 19.4a1.7 1.7 0 0 0-1.87.34l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.7 1.7 0 0 0 4.6 15a1.7 1.7 0 0 0-1.55-1H3a2 2 0 0 1 0-4h.09A1.7 1.7 0 0 0 4.6 9a1.7 1.7 0 0 0-.34-1.87l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.7 1.7 0 0 0 9 4.6a1.7 1.7 0 0 0 1-1.55V3a2 2 0 0 1 4 0v.09a1.7 1.7 0 0 0 1 1.55 1.7 1.7 0 0 0 1.87-.34l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.7 1.7 0 0 0 19.4 9a1.7 1.7 0 0 0 1.55 1H21a2 2 0 0 1 0 4h-.09a1.7 1.7 0 0 0-1.51 1z"/></svg></span>
+              <span><h5>Software Development</h5><p>Custom tools &amp; systems</p></span>
+            </a>
+            <a class="dd-item" href="service-graphic-design.html">
+              <span class="dd-icon"><svg class="isvg" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 10 10c0-1-.5-2-2-2h-3a2 2 0 0 1-2-2c0-1 .5-1.5 1-2 .5-.5 1-1 1-2 0-1.5-2-2-3-2z"/><circle cx="7" cy="12" r="1"/><circle cx="9" cy="8" r="1"/><circle cx="14" cy="7" r="1"/></svg></span>
+              <span><h5>Graphic Design</h5><p>Logos &amp; brand identity</p></span>
+            </a>
+            <a class="dd-item" href="service-digital-marketing.html">
+              <span class="dd-icon"><svg class="isvg" viewBox="0 0 24 24"><path d="M3 11v2a2 2 0 0 0 2 2h1l3 5V6l-3 5H5a2 2 0 0 0-2 2z"/><path d="M14 8a4 4 0 0 1 0 8"/><path d="M17.5 5.5a8 8 0 0 1 0 13"/></svg></span>
+              <span><h5>Digital Marketing</h5><p>Social, content &amp; SEO</p></span>
+            </a>
+            <a class="dd-item" href="service-seo-optimization.html">
+              <span class="dd-icon"><svg class="isvg" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></span>
+              <span><h5>SEO Optimization</h5><p>Rank higher on search engines</p></span>
+            </a>
+            <a class="dd-viewall" href="services.html"><span>Explore →</span></a>
+          </div>
+        </li>
+        <li><a href="process.html">Process</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="contact.html" class="nav-cta magnetic">Get a Quote</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="breadcrumb-bar">
+  <div class="container">
+    <div class="breadcrumbs">
+      <a href="index.html"><svg class="isvg" viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h5v-6h4v6h5V9.5"/></svg>Home</a>
+      <svg class="isvg sep" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></svg>
+      <a href="services.html">Services</a>
+      <svg class="isvg sep" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></svg>
+      <span class="current">Graphic Design</span>
+    </div>
+  </div>
+</div>
+
+<section class="service-hero">
+  <div class="container service-hero-grid">
+    <div class="reveal in">
+      <div class="service-page-icon"><svg class="isvg" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 10 10c0-1-.5-2-2-2h-3a2 2 0 0 1-2-2c0-1 .5-1.5 1-2 .5-.5 1-1 1-2 0-1.5-2-2-3-2z"/><circle cx="7" cy="12" r="1"/><circle cx="9" cy="8" r="1"/><circle cx="14" cy="7" r="1"/></svg></div>
+      <div class="kicker">Graphic Design</div>
+      <h1>Visual identity that gives your business character</h1>
+      <p style="color:var(--slate);margin-top:16px;max-width:520px;">Logos, branding kits and design assets that give your business a consistent, professional look across every platform.</p>
+      <div class="btn-row" style="margin-top:28px;">
+        <a href="contact.html" class="btn-primary">Get a Free Quote</a>
+        <a href="services.html" class="btn-secondary">All Services</a>
+      </div>
+    </div>
+    <div class="service-showcase reveal in reveal-delay-2">
+      <div class="shape shape-ring" style="width:60%;height:60%;top:-10%;right:-10%;animation:spinSlow 20s linear infinite;"></div>
+      <div class="shape shape-dot" style="width:8px;height:8px;bottom:16%;left:14%;animation:floatY 5s ease-in-out infinite;"></div>
+      <div class="glyph-big"><svg class="isvg" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 10 10c0-1-.5-2-2-2h-3a2 2 0 0 1-2-2c0-1 .5-1.5 1-2 .5-.5 1-1 1-2 0-1.5-2-2-3-2z"/><circle cx="7" cy="12" r="1"/><circle cx="9" cy="8" r="1"/><circle cx="14" cy="7" r="1"/></svg></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <div class="kicker">What's Included</div>
+      <h2>A visual identity built to last</h2>
+      <p>We design assets that stay consistent across your website, social media and print materials.</p>
+    </div>
+    <div class="feature-list">
+      <div class="feature-item reveal">
+        <svg class="isvg" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>
+        <div><h4>Logo Design</h4><p>A distinct mark that represents your brand clearly and memorably.</p></div>
+      </div>
+      <div class="feature-item reveal reveal-delay-1">
+        <svg class="isvg" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>
+        <div><h4>Brand Guidelines</h4><p>Colors, fonts and usage rules kept consistent everywhere.</p></div>
+      </div>
+      <div class="feature-item reveal reveal-delay-2">
+        <svg class="isvg" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>
+        <div><h4>Social Media Templates</h4><p>Ready-to-use design templates for your channels.</p></div>
+      </div>
+      <div class="feature-item reveal reveal-delay-3">
+        <svg class="isvg" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>
+        <div><h4>Print & Packaging Design</h4><p>Business cards, brochures, packaging and more.</p></div>
+      </div>
+      <div class="feature-item reveal reveal-delay-4">
+        <svg class="isvg" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>
+        <div><h4>Marketing Creatives</h4><p>Banners and graphics built for ads and promotions.</p></div>
+      </div>
+      <div class="feature-item reveal reveal-delay-5">
+        <svg class="isvg" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>
+        <div><h4>Unlimited Revisions</h4><p>We refine the design together until it feels right.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <div class="kicker">Our Process</div>
+      <h2>How we deliver this service</h2>
+    </div>
+    <div class="process-detail">
+      <div class="process-detail-row reveal">
+        <div class="process-detail-num">01</div>
+        <div class="process-detail-text">
+          <h3>Brand Discovery</h3>
+          <p>We learn about your business, audience and design preferences.</p>
+        </div>
+      </div>
+      <div class="process-detail-row reveal reveal-delay-1">
+        <div class="process-detail-num">02</div>
+        <div class="process-detail-text">
+          <h3>Concept & Sketching</h3>
+          <p>We explore directions and rough concepts for your identity.</p>
+        </div>
+      </div>
+      <div class="process-detail-row reveal reveal-delay-2">
+        <div class="process-detail-num">03</div>
+        <div class="process-detail-text">
+          <h3>Design & Refinement</h3>
+          <p>We refine the chosen concept into polished final assets.</p>
+        </div>
+      </div>
+      <div class="process-detail-row reveal reveal-delay-3">
+        <div class="process-detail-num">04</div>
+        <div class="process-detail-text">
+          <h3>Final Delivery</h3>
+          <p>We hand over all files in the formats you need.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <div class="kicker">Tools We Use</div>
+      <h2>Technology behind the work</h2>
+    </div>
+    <div class="tech-tags reveal in">
+        <span class="tech-tag">Adobe Illustrator</span>
+        <span class="tech-tag">Photoshop</span>
+        <span class="tech-tag">Figma</span>
+        <span class="tech-tag">Canva Pro</span>
+        <span class="tech-tag">InDesign</span>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <div class="kicker">Explore More</div>
+      <h2>Other services we offer</h2>
+    </div>
+    <div class="related-marquee">
+      <div class="related-track">
+        <a href="service-Website-development.html" class="related-card">
+          <div class="icon-circle"><svg class="isvg" viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M10 18h4"/></svg></div>
+          <h5>Website Development</h5>
+          <span>View Service →</span>
+        </a>
+        <a href="service-app-development.html" class="related-card">
+          <div class="icon-circle"><svg class="isvg" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 10 10c0-1-.5-2-2-2h-3a2 2 0 0 1-2-2c0-1 .5-1.5 1-2 .5-.5 1-1 1-2 0-1.5-2-2-3-2z"/><circle cx="7" cy="12" r="1"/><circle cx="9" cy="8" r="1"/><circle cx="14" cy="7" r="1"/></svg></div>
+          <h5>App Development</h5>
+          <span>View Service →</span>
+        </a>
+        <a href="service-software-development.html" class="related-card">
+          <div class="icon-circle"><svg class="isvg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.87l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.7 1.7 0 0 0-1.87-.34 1.7 1.7 0 0 0-1 1.55V21a2 2 0 0 1-4 0v-.09A1.7 1.7 0 0 0 9 19.4a1.7 1.7 0 0 0-1.87.34l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.7 1.7 0 0 0 4.6 15a1.7 1.7 0 0 0-1.55-1H3a2 2 0 0 1 0-4h.09A1.7 1.7 0 0 0 4.6 9a1.7 1.7 0 0 0-.34-1.87l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.7 1.7 0 0 0 9 4.6a1.7 1.7 0 0 0 1-1.55V3a2 2 0 0 1 4 0v.09a1.7 1.7 0 0 0 1 1.55 1.7 1.7 0 0 0 1.87-.34l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.7 1.7 0 0 0 19.4 9a1.7 1.7 0 0 0 1.55 1H21a2 2 0 0 1 0 4h-.09a1.7 1.7 0 0 0-1.51 1z"/></svg></div>
+          <h5>Software Development</h5>
+          <span>View Service →</span>
+        </a>
+        <a href="service-digital-marketing.html" class="related-card">
+          <div class="icon-circle"><svg class="isvg" viewBox="0 0 24 24"><path d="M3 11v2a2 2 0 0 0 2 2h1l3 5V6l-3 5H5a2 2 0 0 0-2 2z"/><path d="M14 8a4 4 0 0 1 0 8"/><path d="M17.5 5.5a8 8 0 0 1 0 13"/></svg></div>
+          <h5>Digital Marketing</h5>
+          <span>View Service →</span>
+        </a>
+        <a href="service-seo-optimization.html" class="related-card">
+          <div class="icon-circle"><svg class="isvg" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></div>
+          <h5>SEO Optimization</h5>
+          <span>View Service →</span>
+        </a>
+        <!-- duplicate set for seamless infinite loop -->
+        <a href="service-Website-development.html" class="related-card" aria-hidden="true">
+          <div class="icon-circle"><svg class="isvg" viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M10 18h4"/></svg></div>
+          <h5>Website Development</h5>
+          <span>View Service →</span>
+        </a>
+        <a href="service-app-development.html" class="related-card">
+          <div class="icon-circle"><svg class="isvg" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 10 10c0-1-.5-2-2-2h-3a2 2 0 0 1-2-2c0-1 .5-1.5 1-2 .5-.5 1-1 1-2 0-1.5-2-2-3-2z"/><circle cx="7" cy="12" r="1"/><circle cx="9" cy="8" r="1"/><circle cx="14" cy="7" r="1"/></svg></div>
+          <h5>App Development</h5>
+          <span>View Service →</span>
+        </a>
+        <a href="service-software-development.html" class="related-card" aria-hidden="true">
+          <div class="icon-circle"><svg class="isvg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.87l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.7 1.7 0 0 0-1.87-.34 1.7 1.7 0 0 0-1 1.55V21a2 2 0 0 1-4 0v-.09A1.7 1.7 0 0 0 9 19.4a1.7 1.7 0 0 0-1.87.34l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.7 1.7 0 0 0 4.6 15a1.7 1.7 0 0 0-1.55-1H3a2 2 0 0 1 0-4h.09A1.7 1.7 0 0 0 4.6 9a1.7 1.7 0 0 0-.34-1.87l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.7 1.7 0 0 0 9 4.6a1.7 1.7 0 0 0 1-1.55V3a2 2 0 0 1 4 0v.09a1.7 1.7 0 0 0 1 1.55 1.7 1.7 0 0 0 1.87-.34l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.7 1.7 0 0 0 19.4 9a1.7 1.7 0 0 0 1.55 1H21a2 2 0 0 1 0 4h-.09a1.7 1.7 0 0 0-1.51 1z"/></svg></div>
+          <h5>Software Development</h5>
+          <span>View Service →</span>
+        </a>
+        <a href="service-digital-marketing.html" class="related-card" aria-hidden="true">
+          <div class="icon-circle"><svg class="isvg" viewBox="0 0 24 24"><path d="M3 11v2a2 2 0 0 0 2 2h1l3 5V6l-3 5H5a2 2 0 0 0-2 2z"/><path d="M14 8a4 4 0 0 1 0 8"/><path d="M17.5 5.5a8 8 0 0 1 0 13"/></svg></div>
+          <h5>Digital Marketing</h5>
+          <span>View Service →</span>
+        </a>
+        <a href="service-seo-optimization.html" class="related-card" aria-hidden="true">
+          <div class="icon-circle"><svg class="isvg" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></div>
+          <h5>SEO Optimization</h5>
+          <span>View Service →</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container">
+    <h2>Let's build something together</h2>
+    <p>Tell us about your project and we'll get back to you quickly.</p>
+    <div class="btn-row" style="justify-content:center;">
+      <a href="contact.html" class="btn-primary">Contact Us</a>
+      <a href="services.html" class="btn-secondary">View Services</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html"><img src="assets/dev logo.png" alt="DevHub Technologies" class="footer-logo"></a>
+        <p>We design and build websites, apps, software and marketing that help real businesses grow.<br>Discover · Develop · Deliver</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="process.html">Process</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Our Services</h4>
+        <ul>
+          <li><a href="service-website-development.html">Website Development</a></li>
+          <li><a href="service-app-development.html">App Development</a></li>
+          <li><a href="service-software-development.html">Software Development</a></li>
+          <li><a href="service-graphic-design.html">Graphic Design</a></li>
+          <li><a href="service-digital-marketing.html">Digital Marketing</a></li>
+          <!-- <li><a href="service-seo-optimization.html">SEO Optimization</a></li> -->
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Info</h4>
+        <ul class="footer-contact-list">
+          <li><a href="tel:6382925120"><svg class="isvg" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span>6382925120</span></a></li>
+          <li><a href="mailto:devhubtechnologiess@gmail.com"><svg class="isvg" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg><span>devhubtechnologiess@gmail.com</span></a></li>
+          <li><a href="https://instagram.com/devhub_technologies" target="_blank"><svg class="isvg" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg><span>@devhub_technologies</span></a></li>
+          <li><a href="https://www.facebook.com/61594018434029/" target="_blank"><svg class="isvg" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg><span>DevHub Technologies</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 DevHub Technologies. All Rights Reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<button id="scrollTopBtn" class="scroll-top-btn" aria-label="Scroll to top">
+  <svg class="isvg" viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<script>
+  document.getElementById('menuBtn').addEventListener('click', function(){
+    document.getElementById('navList').classList.toggle('open');
+  });
+  document.querySelectorAll('.has-dropdown .dd-trigger .isvg').forEach(function(icon){
+    icon.addEventListener('click', function(e){
+      e.preventDefault();
+      e.stopPropagation();
+      icon.closest('li').classList.toggle('open');
+    });
+  });
+  var revealObserver = new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      if(entry.isIntersecting){
+        entry.target.classList.add('in');
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  }, {threshold:0.15});
+  document.querySelectorAll('.reveal').forEach(function(el){ revealObserver.observe(el); });
+
+  var scrollBtn = document.getElementById('scrollTopBtn');
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 400){ scrollBtn.classList.add('show'); }
+    else{ scrollBtn.classList.remove('show'); }
+  });
+  scrollBtn.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+</script>
+
+</body>
+</html>
